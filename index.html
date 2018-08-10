@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+	<title>Personal Portfolio - Brady</title>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+<body>
+  <section id="welcome-section">
+   <div class="welcome">
+			<div class="welcome-text">
+				<h1>Welcome, I'm Brady</h1>
+				<h3>a web developer</h3>
+			</div>
+    </div>
+    
+			<nav id="navbar">
+				<div class="top-right-menu">
+				<ul>
+					<a href="#about-section"><li>About</li></a>
+					<a href="#projects"><li>Portfolio</li></a>
+					<a href="#contact"><li>Contact</li></a>
+				</ul>
+				</div>
+			</nav>
+  	</section>
+  
+  <section id="about-section">
+  	<h2>Who Am I?</h2>
+  	<p>Well, I'm a 25 year old web developer and data scientist, living in Denver, Colorado. I currently work full-time in data science, but I have aspirations to transition to web development and merge the two specialities. I'm passionate about using data to solve problems, and have recently been engulfed in developing the front and back-end technologies to utilize data within a product.</p>
+		<br>
+		<img id="profile-pic" src="profile-pic.jpg" alt="profile picture">
+  	<p>Below I highlight some of the projects I have worked on. I am actively learning and working daily, so these will continue to update!</p>
+  </section>
+  
+  
+  <section id="projects">
+  	<h2>Projects</h2>
+  	<div id="portfolio-grid">
+			<div class="project-tile gridL">
+				<a href="https://slouchybeanie.github.io/FCC-ProductLandingPage-NitroSnowboards/"><img src="nitro.png" alt="Nitro Product Landing Page screenshot"></a>
+			</div>
+			<div class="project-tile gridR">
+				<a href="https://slouchybeanie.github.io/omnifood-jonasSchmedtmann-course/"><img src="omnifood.png" alt="Omnifood screenshot"></a>
+			</div>
+			<div class="project-tile gridL">
+				<a href="https://slouchybeanie.github.io/Blind-Studios/"><img src="blind_crop.png" alt="Blind Studios website screenshot"></a>
+			</div>
+			<div class="project-tile gridR">
+				<a href="https://slouchybeanie.github.io/FCC-TributePage/"><img src="tribute.png" alt="Tribute page to Elon Musk screenshot"></a>
+			</div>
+		</div>
+	</section>
+	
+	<section id="contact">
+		<div id="contact-header">
+			<h2>Contact Me</h2>
+			<p>I'd love to get in touch with you. Feel free to drop me a note below, or contact me on any of the below social links!</p>
+		</div>
+
+		<div id="contact-form">
+			<form action="">
+					<div id="form-grid">
+						<label for="name">Name:</label>
+						<input type="text" id="name" name="firstname" placeholder="Your name...">
+
+						<label for="note">Note:</label>
+						<textarea id="note" name="note" placeholder="Write something.."></textarea>
+					</div>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+
+		<div class="social-links">
+				<a href="https://github.com/SlouchyBeanie" id="profile-link" target="_blank"><i class="fa fa-github fa-4x"></i></a>
+				<a href="https://codepen.io/SlouchyBeanie/" target="_blank"><i class="fa fa-codepen fa-4x"></i></a>
+		</div>
+
+	</section>
+
+</body>
+</html>
